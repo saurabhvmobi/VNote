@@ -1,0 +1,10 @@
+PODS:
+  - WYPopoverController (0.2.2)
+
+DEPENDENCIES:
+  - WYPopoverController (~> 0.2.2)
+
+SPEC CHECKSUMS:
+  WYPopoverController: 00d879c25bddd1fd873dcc21aa98c8308d7f1555
+
+COCOAPODS: 0.39.0

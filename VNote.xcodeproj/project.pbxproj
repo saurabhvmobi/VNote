@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D7B2F4638962959389DF9B1 /* libPods-VNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCF7C3C9677B46A15DC2F99 /* libPods-VNote.a */; };
+		C32081611C44D7D80056E470 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32081601C44D7D80056E470 /* PopViewController.m */; };
+		C32081651C44DD0A0056E470 /* PopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C32081641C44DD0A0056E470 /* PopTableViewCell.m */; };
+		C32081681C4508560056E470 /* PopModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = C32081671C4508560056E470 /* PopModelData.m */; };
+		C322BE571C439AFA0092FA9C /* NotesDescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C322BE561C439AFA0092FA9C /* NotesDescriptionViewController.m */; };
+		C3285D5D1C3E255B00EFDBC1 /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3285D5C1C3E255B00EFDBC1 /* HomePageTableViewCell.m */; };
+		C3285D611C3E3EFB00EFDBC1 /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3285D601C3E3EFB00EFDBC1 /* FolderViewController.m */; };
+		C32E10C01C3F777E007C6CB2 /* FolderModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E10BF1C3F777E007C6CB2 /* FolderModelData.m */; };
+		C32E10C61C3FD448007C6CB2 /* NotesDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E10C51C3FD448007C6CB2 /* NotesDetail.m */; };
+		C32FF5C01C3CD9F500953F56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5BF1C3CD9F500953F56 /* main.m */; };
+		C32FF5C31C3CD9F500953F56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5C21C3CD9F500953F56 /* AppDelegate.m */; };
+		C32FF5C61C3CD9F500953F56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5C51C3CD9F500953F56 /* ViewController.m */; };
+		C32FF5C91C3CD9F500953F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32FF5C71C3CD9F500953F56 /* Main.storyboard */; };
+		C32FF5CB1C3CD9F500953F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32FF5CA1C3CD9F500953F56 /* Assets.xcassets */; };
+		C32FF5CE1C3CD9F500953F56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32FF5CC1C3CD9F500953F56 /* LaunchScreen.storyboard */; };
+		C32FF5D91C3CD9F500953F56 /* VNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5D81C3CD9F500953F56 /* VNoteTests.m */; };
+		C32FF5E41C3CD9F500953F56 /* VNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5E31C3CD9F500953F56 /* VNoteUITests.m */; };
+		C32FF5F21C3CE18700953F56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32FF5F11C3CE18700953F56 /* QuartzCore.framework */; };
+		C32FF5F51C3CFC9600953F56 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5F41C3CFC9600953F56 /* SignUp.m */; };
+		C32FF5F91C3D071500953F56 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = C32FF5F81C3D071500953F56 /* HomePage.m */; };
+		C332AF2C1C40C39600C91CB3 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C332AF2B1C40C39600C91CB3 /* NoteTableViewCell.m */; };
+		C332AF2F1C40EE8E00C91CB3 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C332AF2E1C40EE8E00C91CB3 /* FileViewController.m */; };
+		C332AF331C413AAF00C91CB3 /* FileModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = C332AF321C413AAF00C91CB3 /* FileModelData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C32FF5D51C3CD9F500953F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32FF5B31C3CD9F400953F56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32FF5BA1C3CD9F400953F56;
+			remoteInfo = VNote;
+		};
+		C32FF5E01C3CD9F500953F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32FF5B31C3CD9F400953F56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32FF5BA1C3CD9F400953F56;
+			remoteInfo = VNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E36478158EA4C182C43839 /* Pods-VNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VNote/Pods-VNote.debug.xcconfig"; sourceTree = "<group>"; };
+		367CF9B1B905EDBF6089A525 /* Pods-VNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-VNote/Pods-VNote.release.xcconfig"; sourceTree = "<group>"; };
+		C320815F1C44D7D80056E470 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		C32081601C44D7D80056E470 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		C32081631C44DD0A0056E470 /* PopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTableViewCell.h; sourceTree = "<group>"; };
+		C32081641C44DD0A0056E470 /* PopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTableViewCell.m; sourceTree = "<group>"; };
+		C32081661C4508560056E470 /* PopModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopModelData.h; sourceTree = "<group>"; };
+		C32081671C4508560056E470 /* PopModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopModelData.m; sourceTree = "<group>"; };
+		C322BE551C439AFA0092FA9C /* NotesDescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesDescriptionViewController.h; sourceTree = "<group>"; };
+		C322BE561C439AFA0092FA9C /* NotesDescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesDescriptionViewController.m; sourceTree = "<group>"; };
+		C3285D5B1C3E255B00EFDBC1 /* HomePageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageTableViewCell.h; path = ../HomePageTableViewCell.h; sourceTree = "<group>"; };
+		C3285D5C1C3E255B00EFDBC1 /* HomePageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageTableViewCell.m; path = ../HomePageTableViewCell.m; sourceTree = "<group>"; };
+		C3285D5F1C3E3EFB00EFDBC1 /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		C3285D601C3E3EFB00EFDBC1 /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
+		C32E10BE1C3F777E007C6CB2 /* FolderModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderModelData.h; sourceTree = "<group>"; };
+		C32E10BF1C3F777E007C6CB2 /* FolderModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderModelData.m; sourceTree = "<group>"; };
+		C32E10C41C3FD448007C6CB2 /* NotesDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotesDetail.h; path = ../NotesDetail.h; sourceTree = "<group>"; };
+		C32E10C51C3FD448007C6CB2 /* NotesDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotesDetail.m; path = ../NotesDetail.m; sourceTree = "<group>"; };
+		C32FF5BB1C3CD9F400953F56 /* VNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32FF5BF1C3CD9F500953F56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C32FF5C11C3CD9F500953F56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C32FF5C21C3CD9F500953F56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C32FF5C41C3CD9F500953F56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = VNote/ViewController.h; sourceTree = "<group>"; };
+		C32FF5C51C3CD9F500953F56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = VNote/ViewController.m; sourceTree = "<group>"; };
+		C32FF5C81C3CD9F500953F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C32FF5CA1C3CD9F500953F56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C32FF5CD1C3CD9F500953F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C32FF5CF1C3CD9F500953F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32FF5D41C3CD9F500953F56 /* VNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32FF5D81C3CD9F500953F56 /* VNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNoteTests.m; sourceTree = "<group>"; };
+		C32FF5DA1C3CD9F500953F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32FF5DF1C3CD9F500953F56 /* VNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32FF5E31C3CD9F500953F56 /* VNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNoteUITests.m; sourceTree = "<group>"; };
+		C32FF5E51C3CD9F500953F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32FF5F11C3CE18700953F56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C32FF5F31C3CFC9600953F56 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		C32FF5F41C3CFC9600953F56 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		C32FF5F71C3D071500953F56 /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		C32FF5F81C3D071500953F56 /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		C332AF2A1C40C39600C91CB3 /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		C332AF2B1C40C39600C91CB3 /* NoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
+		C332AF2D1C40EE8E00C91CB3 /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		C332AF2E1C40EE8E00C91CB3 /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		C332AF311C413AAF00C91CB3 /* FileModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileModelData.h; path = VNote/FileModelData.h; sourceTree = "<group>"; };
+		C332AF321C413AAF00C91CB3 /* FileModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileModelData.m; path = VNote/FileModelData.m; sourceTree = "<group>"; };
+		CCCF7C3C9677B46A15DC2F99 /* libPods-VNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C32FF5B81C3CD9F400953F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32FF5F21C3CE18700953F56 /* QuartzCore.framework in Frameworks */,
+				9D7B2F4638962959389DF9B1 /* libPods-VNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5D11C3CD9F500953F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5DC1C3CD9F500953F56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933B827E5B19EBA2F847765F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCF7C3C9677B46A15DC2F99 /* libPods-VNote.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32081621C44DCE20056E470 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				C320815F1C44D7D80056E470 /* PopViewController.h */,
+				C32081601C44D7D80056E470 /* PopViewController.m */,
+				C32081631C44DD0A0056E470 /* PopTableViewCell.h */,
+				C32081641C44DD0A0056E470 /* PopTableViewCell.m */,
+				C32081661C4508560056E470 /* PopModelData.h */,
+				C32081671C4508560056E470 /* PopModelData.m */,
+			);
+			name = PopView;
+			sourceTree = "<group>";
+		};
+		C322BE581C439B280092FA9C /* NotesDescription */ = {
+			isa = PBXGroup;
+			children = (
+				C322BE551C439AFA0092FA9C /* NotesDescriptionViewController.h */,
+				C322BE561C439AFA0092FA9C /* NotesDescriptionViewController.m */,
+			);
+			name = NotesDescription;
+			sourceTree = "<group>";
+		};
+		C3285D5E1C3E2EDC00EFDBC1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5C41C3CD9F500953F56 /* ViewController.h */,
+				C32FF5C51C3CD9F500953F56 /* ViewController.m */,
+			);
+			name = Login;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C3285D641C3E3F4100EFDBC1 /* Folder */ = {
+			isa = PBXGroup;
+			children = (
+				C3285D5F1C3E3EFB00EFDBC1 /* FolderViewController.h */,
+				C3285D601C3E3EFB00EFDBC1 /* FolderViewController.m */,
+				C32E10BE1C3F777E007C6CB2 /* FolderModelData.h */,
+				C32E10BF1C3F777E007C6CB2 /* FolderModelData.m */,
+			);
+			name = Folder;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C32E10C81C3FE787007C6CB2 /* NoteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C32E10C41C3FD448007C6CB2 /* NotesDetail.h */,
+				C32E10C51C3FD448007C6CB2 /* NotesDetail.m */,
+				C332AF2A1C40C39600C91CB3 /* NoteTableViewCell.h */,
+				C332AF2B1C40C39600C91CB3 /* NoteTableViewCell.m */,
+			);
+			name = NoteDetail;
+			sourceTree = "<group>";
+		};
+		C32FF5B21C3CD9F400953F56 = {
+			isa = PBXGroup;
+			children = (
+				C32FF5F11C3CE18700953F56 /* QuartzCore.framework */,
+				C32FF5BD1C3CD9F400953F56 /* VNote */,
+				C32FF5D71C3CD9F500953F56 /* VNoteTests */,
+				C32FF5E21C3CD9F500953F56 /* VNoteUITests */,
+				C32FF5BC1C3CD9F400953F56 /* Products */,
+				F405652A0D8E7DCFA75359FD /* Pods */,
+				933B827E5B19EBA2F847765F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C32FF5BC1C3CD9F400953F56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5BB1C3CD9F400953F56 /* VNote.app */,
+				C32FF5D41C3CD9F500953F56 /* VNoteTests.xctest */,
+				C32FF5DF1C3CD9F500953F56 /* VNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C32FF5BD1C3CD9F400953F56 /* VNote */ = {
+			isa = PBXGroup;
+			children = (
+				C32081621C44DCE20056E470 /* PopView */,
+				C322BE581C439B280092FA9C /* NotesDescription */,
+				C32E10C81C3FE787007C6CB2 /* NoteDetail */,
+				C32FF5FB1C3D1FFB00953F56 /* AppDelegate */,
+				C32FF5FA1C3D071B00953F56 /* HomePage */,
+				C32FF5F61C3D020600953F56 /* SignUp */,
+				C32FF5C71C3CD9F500953F56 /* Main.storyboard */,
+				C3285D5E1C3E2EDC00EFDBC1 /* Login */,
+				C332AF301C40F0AA00C91CB3 /* File */,
+				C32FF5CA1C3CD9F500953F56 /* Assets.xcassets */,
+				C3285D641C3E3F4100EFDBC1 /* Folder */,
+				C32FF5CC1C3CD9F500953F56 /* LaunchScreen.storyboard */,
+				C32FF5CF1C3CD9F500953F56 /* Info.plist */,
+				C32FF5BE1C3CD9F500953F56 /* Supporting Files */,
+			);
+			path = VNote;
+			sourceTree = "<group>";
+		};
+		C32FF5BE1C3CD9F500953F56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5BF1C3CD9F500953F56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C32FF5D71C3CD9F500953F56 /* VNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5D81C3CD9F500953F56 /* VNoteTests.m */,
+				C32FF5DA1C3CD9F500953F56 /* Info.plist */,
+			);
+			path = VNoteTests;
+			sourceTree = "<group>";
+		};
+		C32FF5E21C3CD9F500953F56 /* VNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5E31C3CD9F500953F56 /* VNoteUITests.m */,
+				C32FF5E51C3CD9F500953F56 /* Info.plist */,
+			);
+			path = VNoteUITests;
+			sourceTree = "<group>";
+		};
+		C32FF5F61C3D020600953F56 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5F31C3CFC9600953F56 /* SignUp.h */,
+				C32FF5F41C3CFC9600953F56 /* SignUp.m */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		C32FF5FA1C3D071B00953F56 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5F71C3D071500953F56 /* HomePage.h */,
+				C32FF5F81C3D071500953F56 /* HomePage.m */,
+				C3285D5B1C3E255B00EFDBC1 /* HomePageTableViewCell.h */,
+				C3285D5C1C3E255B00EFDBC1 /* HomePageTableViewCell.m */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		C32FF5FB1C3D1FFB00953F56 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C32FF5C11C3CD9F500953F56 /* AppDelegate.h */,
+				C32FF5C21C3CD9F500953F56 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C332AF301C40F0AA00C91CB3 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				C332AF2D1C40EE8E00C91CB3 /* FileViewController.h */,
+				C332AF2E1C40EE8E00C91CB3 /* FileViewController.m */,
+				C332AF311C413AAF00C91CB3 /* FileModelData.h */,
+				C332AF321C413AAF00C91CB3 /* FileModelData.m */,
+			);
+			name = File;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F405652A0D8E7DCFA75359FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03E36478158EA4C182C43839 /* Pods-VNote.debug.xcconfig */,
+				367CF9B1B905EDBF6089A525 /* Pods-VNote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C32FF5BA1C3CD9F400953F56 /* VNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32FF5E81C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNote" */;
+			buildPhases = (
+				4EE0B90B3F83E7F535E80F3A /* Check Pods Manifest.lock */,
+				C32FF5B71C3CD9F400953F56 /* Sources */,
+				C32FF5B81C3CD9F400953F56 /* Frameworks */,
+				C32FF5B91C3CD9F400953F56 /* Resources */,
+				946A242EF5FA2556A34CC303 /* Embed Pods Frameworks */,
+				DA017E1E76921D0B1C8C50A4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNote;
+			productName = VNote;
+			productReference = C32FF5BB1C3CD9F400953F56 /* VNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C32FF5D31C3CD9F500953F56 /* VNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32FF5EB1C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNoteTests" */;
+			buildPhases = (
+				C32FF5D01C3CD9F500953F56 /* Sources */,
+				C32FF5D11C3CD9F500953F56 /* Frameworks */,
+				C32FF5D21C3CD9F500953F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32FF5D61C3CD9F500953F56 /* PBXTargetDependency */,
+			);
+			name = VNoteTests;
+			productName = VNoteTests;
+			productReference = C32FF5D41C3CD9F500953F56 /* VNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C32FF5DE1C3CD9F500953F56 /* VNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C32FF5EE1C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNoteUITests" */;
+			buildPhases = (
+				C32FF5DB1C3CD9F500953F56 /* Sources */,
+				C32FF5DC1C3CD9F500953F56 /* Frameworks */,
+				C32FF5DD1C3CD9F500953F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C32FF5E11C3CD9F500953F56 /* PBXTargetDependency */,
+			);
+			name = VNoteUITests;
+			productName = VNoteUITests;
+			productReference = C32FF5DF1C3CD9F500953F56 /* VNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C32FF5B31C3CD9F400953F56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vmoksha Technologies Pvt Ltd";
+				TargetAttributes = {
+					C32FF5BA1C3CD9F400953F56 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C32FF5D31C3CD9F500953F56 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C32FF5BA1C3CD9F400953F56;
+					};
+					C32FF5DE1C3CD9F500953F56 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C32FF5BA1C3CD9F400953F56;
+					};
+				};
+			};
+			buildConfigurationList = C32FF5B61C3CD9F400953F56 /* Build configuration list for PBXProject "VNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C32FF5B21C3CD9F400953F56;
+			productRefGroup = C32FF5BC1C3CD9F400953F56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C32FF5BA1C3CD9F400953F56 /* VNote */,
+				C32FF5D31C3CD9F500953F56 /* VNoteTests */,
+				C32FF5DE1C3CD9F500953F56 /* VNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C32FF5B91C3CD9F400953F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32FF5CE1C3CD9F500953F56 /* LaunchScreen.storyboard in Resources */,
+				C32FF5CB1C3CD9F500953F56 /* Assets.xcassets in Resources */,
+				C32FF5C91C3CD9F500953F56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5D21C3CD9F500953F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5DD1C3CD9F500953F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EE0B90B3F83E7F535E80F3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		946A242EF5FA2556A34CC303 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VNote/Pods-VNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA017E1E76921D0B1C8C50A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VNote/Pods-VNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C32FF5B71C3CD9F400953F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32FF5C61C3CD9F500953F56 /* ViewController.m in Sources */,
+				C332AF331C413AAF00C91CB3 /* FileModelData.m in Sources */,
+				C32E10C61C3FD448007C6CB2 /* NotesDetail.m in Sources */,
+				C32081681C4508560056E470 /* PopModelData.m in Sources */,
+				C3285D611C3E3EFB00EFDBC1 /* FolderViewController.m in Sources */,
+				C32081611C44D7D80056E470 /* PopViewController.m in Sources */,
+				C322BE571C439AFA0092FA9C /* NotesDescriptionViewController.m in Sources */,
+				C32FF5F51C3CFC9600953F56 /* SignUp.m in Sources */,
+				C32E10C01C3F777E007C6CB2 /* FolderModelData.m in Sources */,
+				C32081651C44DD0A0056E470 /* PopTableViewCell.m in Sources */,
+				C32FF5F91C3D071500953F56 /* HomePage.m in Sources */,
+				C332AF2F1C40EE8E00C91CB3 /* FileViewController.m in Sources */,
+				C32FF5C31C3CD9F500953F56 /* AppDelegate.m in Sources */,
+				C32FF5C01C3CD9F500953F56 /* main.m in Sources */,
+				C3285D5D1C3E255B00EFDBC1 /* HomePageTableViewCell.m in Sources */,
+				C332AF2C1C40C39600C91CB3 /* NoteTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5D01C3CD9F500953F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32FF5D91C3CD9F500953F56 /* VNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32FF5DB1C3CD9F500953F56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32FF5E41C3CD9F500953F56 /* VNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C32FF5D61C3CD9F500953F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32FF5BA1C3CD9F400953F56 /* VNote */;
+			targetProxy = C32FF5D51C3CD9F500953F56 /* PBXContainerItemProxy */;
+		};
+		C32FF5E11C3CD9F500953F56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C32FF5BA1C3CD9F400953F56 /* VNote */;
+			targetProxy = C32FF5E01C3CD9F500953F56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C32FF5C71C3CD9F500953F56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32FF5C81C3CD9F500953F56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C32FF5CC1C3CD9F500953F56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C32FF5CD1C3CD9F500953F56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C32FF5E61C3CD9F500953F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C32FF5E71C3CD9F500953F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C32FF5E91C3CD9F500953F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E36478158EA4C182C43839 /* Pods-VNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C32FF5EA1C3CD9F500953F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367CF9B1B905EDBF6089A525 /* Pods-VNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C32FF5EC1C3CD9F500953F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNote.app/VNote";
+			};
+			name = Debug;
+		};
+		C32FF5ED1C3CD9F500953F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VNote.app/VNote";
+			};
+			name = Release;
+		};
+		C32FF5EF1C3CD9F500953F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C32FF5F01C3CD9F500953F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.VNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C32FF5B61C3CD9F400953F56 /* Build configuration list for PBXProject "VNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32FF5E61C3CD9F500953F56 /* Debug */,
+				C32FF5E71C3CD9F500953F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32FF5E81C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32FF5E91C3CD9F500953F56 /* Debug */,
+				C32FF5EA1C3CD9F500953F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32FF5EB1C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32FF5EC1C3CD9F500953F56 /* Debug */,
+				C32FF5ED1C3CD9F500953F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C32FF5EE1C3CD9F500953F56 /* Build configuration list for PBXNativeTarget "VNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C32FF5EF1C3CD9F500953F56 /* Debug */,
+				C32FF5F01C3CD9F500953F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C32FF5B31C3CD9F400953F56 /* Project object */;
+}
